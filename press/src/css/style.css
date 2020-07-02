@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Acmel|Lobster|Patua+One|Rubik|Sniglet');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #947c8d, #ec6246);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #c51212;
+    background: var(--bggradient);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header.nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header.nav-item {
+    padding: 0.9em;
+}
+
+header-navbar-brand {
+    padding-left: 8rem;
+
+}
+
+header.nav-link:hover {
+    color: black;
+}
+
+header.row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header.row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+header.row .col-md-5 img {
+    width: 90%;
+}
+
+header.container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header.container .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header.container .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header.containe r.col-md-7 button {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+
+.purchase text-center>ul {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster)
+}
+
+.purchase>li {
+    color: var(--light-black) font-size:3vmin;
+    padding-bottom: 10vmin;
+}
+
+.section-2 .cover {
+    padding: 0 0 0.5em 0;
+    background: rgba(240, 218, 218, 0.877);
+    fontsize: 6vmin;
+}
+
+.section3 {
+    height: 50vmin;
+    margin-top: 10vmin;
+    background: var(--bggradient);
+}
+
+.section3 .col-md-12>h1 {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    fontsize: 6vmin;
+}
+
+.section3 .col-md-12>p {
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer input {
+    border: none !important;
+
+}
+
+footer input::placeholder {
+    color: white !important;
+
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 10%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
